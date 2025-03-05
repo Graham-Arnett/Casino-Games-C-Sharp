@@ -9,13 +9,17 @@
             string choice;
             do
             {
+
                 //funny story, I don't know the rules of yahtzee, so what I'm gonna do is just make the skeleton structure tonight, and do the rest tomorrow
                 for(int i = 0; i < 5; i++)
                 {
-                    //apparently you use 5 dice, so I figure each time this goes you roll one of the dice?
-                    //also I want to try my hand at printing out ascii images of the dice faces when I have everything else working
+                    int roll = random.Next(1,7);//lower bound is inclusive, upper is exclusive so its 1-6 really
+                    Console.Write($"\tYour roll: {roll}"); //eventually I want to print out ascii dice here
+                    //should the other player have a separate forloop? nah probably not
+                    int botRolls = random.Next(1, 7);//this probably violates DRY, but I'm still learning so its ok
+                    Console.Write($"\tThe other player rolled: {botRolls}");//ok this formatting needs work
                 }
-                Console.Write("Would you like to play again? (y/n): ");
+                Console.Write("\n\nWould you like to play again? (y/n): ");
             choice= Console.ReadLine().ToLower();
             } while (choice == "y");
         }
