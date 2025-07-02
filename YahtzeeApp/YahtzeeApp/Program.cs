@@ -21,11 +21,11 @@
                     Console.Write($"\tYour roll: {roll}"); //eventually I want to print out ascii dice here
                     //should the other player have a separate forloop? nah probably not
                     int botRolls = random.Next(1, 7);//this probably violates DRY, but I'm still learning so its ok
-                    Console.Write($"\tThe other player rolled: {botRolls}");//ok this formatting needs work
+                    Console.WriteLine($"\tThe other player rolled: {botRolls}");//ok this formatting needs work
                     switch (roll)
                     {
                         case 1:
-                            Console.WriteLine("" +
+                            Console.Write("\t" +
                                 "--------\n" +
                                 "|      |\n" +
                                 "|   O  |\n" +
@@ -33,7 +33,7 @@
                                 "--------\n" );
                             break;
                         case 2:
-                            Console.WriteLine("" +
+                            Console.Write("\t" +
                                 "--------\n" +
                                 "|   O  |\n" +
                                 "|      |\n" +
@@ -41,7 +41,7 @@
                                 "--------\n");
                             break;
                         case 3:
-                            Console.WriteLine("" +
+                            Console.Write("\t" +
                                 "--------\n" +
                                 "|   O  |\n" +
                                 "|   O  |\n" +
@@ -49,7 +49,7 @@
                                 "--------\n");
                             break;
                         case 4:
-                            Console.WriteLine("" +
+                            Console.Write("\t" +
                                 "--------\n" +
                                 "| O  O |\n" +
                                 "|      |\n" +
@@ -57,7 +57,7 @@
                                 "--------\n");
                             break;
                         case 5:
-                            Console.WriteLine("" +
+                            Console.Write("\t" +
                                 "--------\n" +
                                 "| O  O |\n" +
                                 "|   O  |\n" +
@@ -65,7 +65,7 @@
                                 "--------\n");
                             break;
                         case 6:
-                            Console.WriteLine("" +
+                            Console.Write("\t" +
                                 "--------\n" +
                                 "| O  O |\n" +
                                 "| O  O |\n" +
