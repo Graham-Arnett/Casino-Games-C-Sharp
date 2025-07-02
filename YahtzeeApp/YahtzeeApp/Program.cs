@@ -22,6 +22,57 @@
                     //should the other player have a separate forloop? nah probably not
                     int botRolls = random.Next(1, 7);//this probably violates DRY, but I'm still learning so its ok
                     Console.Write($"\tThe other player rolled: {botRolls}");//ok this formatting needs work
+                    switch (roll)
+                    {
+                        case 1:
+                            Console.WriteLine("" +
+                                "--------\n" +
+                                "|      |\n" +
+                                "|   O  |\n" +
+                                "|      |\n" +
+                                "--------\n" );
+                            break;
+                        case 2:
+                            Console.WriteLine("" +
+                                "--------\n" +
+                                "|   O  |\n" +
+                                "|      |\n" +
+                                "|   O  |\n" +
+                                "--------\n");
+                            break;
+                        case 3:
+                            Console.WriteLine("" +
+                                "--------\n" +
+                                "|   O  |\n" +
+                                "|   O  |\n" +
+                                "|   O  |\n" +
+                                "--------\n");
+                            break;
+                        case 4:
+                            Console.WriteLine("" +
+                                "--------\n" +
+                                "| O  O |\n" +
+                                "|      |\n" +
+                                "| O  O |\n" +
+                                "--------\n");
+                            break;
+                        case 5:
+                            Console.WriteLine("" +
+                                "--------\n" +
+                                "| O  O |\n" +
+                                "|   O  |\n" +
+                                "| O  O |\n" +
+                                "--------\n");
+                            break;
+                        case 6:
+                            Console.WriteLine("" +
+                                "--------\n" +
+                                "| O  O |\n" +
+                                "| O  O |\n" +
+                                "| O  O |\n" +
+                                "--------\n");
+                            break;
+                    }
                 }
                 Console.Write("\n\nWould you like to play again? (y/n): ");
             choice= Console.ReadLine().ToLower();
