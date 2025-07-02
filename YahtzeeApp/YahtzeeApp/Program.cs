@@ -33,7 +33,7 @@
                                 "--------\n" );
                             break;
                         case 2:
-                            Console.Write("\t" +
+                            Console.Write("" +
                                 "--------\n" +
                                 "|   O  |\n" +
                                 "|      |\n" +
