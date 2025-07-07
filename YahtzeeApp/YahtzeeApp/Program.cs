@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to my Yahtzee App!");
+            Console.WriteLine("Welcome to my Yahtzee App!");//continue tomorrow
             Random random = new Random();
             string choice;
             int rounds = 13;//apparently yahtzee is 13 rounds long
@@ -15,7 +15,7 @@
                              "|   O  |\n" +
                              "|      |\n" +
                              "--------",
-                                "\t--------" +
+                                "--------" +
                                 "|   O  |\n" +
                                 "|      |\n" +
                                 "|   O  |\n" +
