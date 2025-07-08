@@ -10,16 +10,16 @@
             int rounds = 13;//apparently yahtzee is 13 rounds long
             int points = 0;//initialize points at zero, different combos are worth different amounts
             int[] roundRolls = new int[5]; //the idea is you can have stuff like straights in yahtzee, so order is important, therefore we can do the checking on index value
-            string[] dice = {"--------\n" +
-                             "|      |\n" +
-                             "|   O  |\n" +
-                             "|      |\n" +
-                             "--------",
-                                "--------" +
-                                "|   O  |\n" +
-                                "|      |\n" +
-                                "|   O  |\n" +
-                                "--------"};
+            //string[] dice = {"--------\n" +
+            //                 "|      |\n" +
+            //                 "|   O  |\n" +
+            //                 "|      |\n" +
+            //                 "--------",
+            //                    "--------" +
+            //                    "|   O  |\n" +
+            //                    "|      |\n" +
+            //                    "|   O  |\n" +
+            //                    "--------"};
             //Console.WriteLine($"{dice[0]} \t {dice[1]}");
             do
             {
