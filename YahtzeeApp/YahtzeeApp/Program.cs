@@ -26,6 +26,8 @@
                 }
                 if (roundRolls[1] == roundRolls[0] + 1 && roundRolls[2] == roundRolls[1] + 1 && roundRolls[3] == roundRolls[2] + 1 && roundRolls[4] == roundRolls[3] + 1)
                 {
+                    //I think my logic for a straight is incorrect
+                    //I need a new way to check logic for win conditions
                     Console.WriteLine("You got a STRAIGHT!");
                 }
                 Console.Write("\n\nWould you like to play again? (y/n): ");
