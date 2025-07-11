@@ -7,11 +7,12 @@
             Console.WriteLine("Welcome to my Yahtzee App!");//continue tomorrow
             Random random = new Random();
             string choice;
-            int rounds = 13;//apparently yahtzee is 13 rounds long
-            int points = 0;//initialize points at zero, different combos are worth different amounts
+           
             
             do
             {
+                int rounds = 13;//apparently yahtzee is 13 rounds long
+                int points = 0;//initialize points at zero, different combos are worth different amounts
                 int[] roundRolls = new int[5];
                 Console.WriteLine($"Your rolls: ");
                 //funny story, I don't know the rules of yahtzee, so what I'm gonna do is just make the skeleton structure tonight, and do the rest tomorrow
