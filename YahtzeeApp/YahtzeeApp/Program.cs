@@ -7,7 +7,11 @@
             Console.WriteLine("Welcome to my Yahtzee App!");//continue tomorrow
             Random random = new Random();
             string choice;
-           
+            //to do list
+            //look up and actually study yahtzee rules, it turns out its really hard to know what to do when you don't know it at all
+            //think up basic logic
+            //make this all tomorrow
+            //when everything works, go back and make the proper one that does all this but has a dealer, probably with a dealer class
             
             do
             {
